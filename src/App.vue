@@ -1,7 +1,9 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <nav class="relative">
+      <p class="absolute top-10 left-10 w-3/12 font-bold">Tell us what ingredients you have in the fridge and we will choose dishes that can be made from them!</p>
+    <h1 class="text-3xl font-bold">
+      FridgeRecipe
+    </h1>
   </nav>
   <router-view/>
 </template>
@@ -12,7 +14,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #000;
+  height:100vh;
+  width:100vw;
 }
 
 nav {
